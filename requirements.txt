@@ -1,2 +1,3 @@
 Dmail == 1.2.4
 pandas == 1.1.4
+Jinja2==2.11.2
