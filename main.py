@@ -1,6 +1,7 @@
 import pandas as pd
 from Dmail.esp import Hotmail
 
+
 # Email template creation
 template = """
 Dear {reader},
@@ -9,7 +10,8 @@ This is just an email example containing:
 
 - The **banner image** as an inline image
 
-- The **SMTP addresses table**, with *centered cell values*, some *background colors* and *automatically adjusted height*
+- The **SMTP addresses table**, with *centered cell values*, some *background colors* and *automatically adjusted 
+height* 
 
 - A csv **file attached**
 
@@ -27,16 +29,16 @@ Best regards,
 """
 
 # Import the table from the csv file in a pandas dataframe
-table_path = "my_table_csv_file"
+table_path = "docs/smtp.csv"
 smtp_table = pd.read_csv(table_path, sep=";", index_col=None)
 
 # Get image path
-image_path = "my_banner_image_path"
+image_path = "docs/banner.png"
 
 
 # Function that highlights odd rows with specific color in a pandas dataframe
 def highlight_odd_rows(s):
-    return ['background-color: #CEF8BE' if s.name % 2 else '' for v in s]
+    return ['background-color: #CEF8BE' if s.name % 2 else '' for _ in s]
 
 
 # Styling the dataframe using pandas' .style
@@ -54,9 +56,9 @@ smtp_table = (smtp_table.style
 # Adding personal information
 user = "Jane Doe"
 sender_name = "John Doe"
-email_address = "my_email_adress"
+email_address = "my_email_address"
 password = "my_email_password"
-recipient_email = "recipient_email_adress"
+recipient_email = "recipient_email_address"
 
 # Creating the email body
 message = template.format(reader=user, sender=sender_name, image_path=image_path, smtp_table=smtp_table)

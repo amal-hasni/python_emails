@@ -1,0 +1,6 @@
+Email service provider;SMTP address;SMTP port
+Gmail;smtp.gmail.com;587
+Outlook;smtp-mail.outlook.com;587
+yahoo;smtp.mail.yahoo.com;587
+Office365;smtp.office365.com;587
+AWS SES;email-smtp.region-1.amazonaws.com;587
