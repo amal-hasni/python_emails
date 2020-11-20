@@ -1,6 +1,9 @@
 import pandas as pd
 from Dmail.esp import Hotmail
 
+EMAIL_ADDRESS = 'YOUR_EMAIL_ADDRESS@EXAMPLE_DOMAIN.COM'
+EMAIL_PASSWORD = 'YOUR_PASSWORD'
+RECIPIENT_EMAIL = 'RECIPIENT_EMAIL@EXAMPLE_DOMAIN.COM'
 
 # Email template creation
 template = """
@@ -56,9 +59,9 @@ smtp_table = (smtp_table.style
 # Adding personal information
 user = "Jane Doe"
 sender_name = "John Doe"
-email_address = "my_email_address"
-password = "my_email_password"
-recipient_email = "recipient_email_address"
+email_address = EMAIL_ADDRESS
+password = EMAIL_PASSWORD
+recipient_email = RECIPIENT_EMAIL
 
 # Creating the email body
 message = template.format(reader=user, sender=sender_name, image_path=image_path, smtp_table=smtp_table)
