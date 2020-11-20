@@ -28,7 +28,7 @@ msg.add_alternative("""
 
 
 filename = 'attachment.txt'
-path = f'./{filename}'
+path = f'docs/{filename}'
 
 # Guess the content type based on the file's extension.
 ctype, encoding = mimetypes.guess_type(path)
