@@ -1,13 +1,18 @@
 import pandas as pd
 from Dmail.esp import Hotmail
 
-EMAIL_ADDRESS = 'YOUR_EMAIL_ADDRESS@EXAMPLE_DOMAIN.COM'
-EMAIL_PASSWORD = 'YOUR_PASSWORD'
-RECIPIENT_EMAIL = 'RECIPIENT_EMAIL@EXAMPLE_DOMAIN.COM'
+
+# Adding personal information
+recipient_name = 'USER_NAME'
+sender_name = 'SENDER_NAME'
+email_address = 'YOUR_EMAIL_ADDRESS@EXAMPLE_DOMAIN.COM'
+password = 'YOUR_PASSWORD'
+recipient_email = 'RECIPIENT_EMAIL@EXAMPLE_DOMAIN.COM'
+
 
 # Email template creation
-template = """
-Dear {reader},
+template = """\
+Dear {recipient},
 
 This is just an email example containing:
 
@@ -56,15 +61,9 @@ smtp_table = (smtp_table.style
               .hide_index()  # Export the table without the index column
               .render())
 
-# Adding personal information
-user = "Jane Doe"
-sender_name = "John Doe"
-email_address = EMAIL_ADDRESS
-password = EMAIL_PASSWORD
-recipient_email = RECIPIENT_EMAIL
 
 # Creating the email body
-message = template.format(reader=user, sender=sender_name, image_path=image_path, smtp_table=smtp_table)
+message = template.format(recipient=recipient_name, sender=sender_name, image_path=image_path, smtp_table=smtp_table)
 
 # Sending the email
 with Hotmail(email_address, password) as email:
