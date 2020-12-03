@@ -1,6 +1,8 @@
 # Emails with Python
 
-![banner](https://i.imgur.com/aiTfcds.png)
+
+![banner_doodle](docs/banner_doodle.png)
+
 
 
 This is a repository containing ready-to-use code for different methods to send emails using Python.
