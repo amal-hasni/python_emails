@@ -20,3 +20,8 @@ This is a repository containing ready-to-use code for different methods to send 
 ```bash
 pip install -r requirements.txt
 ```
+---
+
+You can find our **Medium article** explaining the details of this project via this link:
+
+[How to send E-mails with attachments using Python](https://medium.com/@amal-hasni/how-to-send-e-mails-with-attachments-using-python-in-2-easy-steps-5d0c05b3e44d)
