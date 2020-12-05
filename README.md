@@ -3,10 +3,10 @@
 
 <figure>
   <img src="docs/banner_doodle.png" alt="banner_doodle">
-  <figcaption>Sketch by 
+  <figcaption><center>Sketch by 
   <a href="https://blush.design/artists/pablo-stanley">Pablo Stanley</a>
   on 
-  <a href="https://www.humaaans.com/">Humaaans</a></ficaption>
+  <a href="https://www.humaaans.com/">Humaaans</a></center></ficaption>
 </figure>
 
 
