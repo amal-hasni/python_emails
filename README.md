@@ -1,17 +1,11 @@
 # Emails with Python
 
-<center>
-<figure>
-  <img src="docs/banner_doodle.png" alt="banner_doodle">
-  
-  <figcaption>Sketch by 
-  <a href="https://blush.design/artists/pablo-stanley">Pablo Stanley</a>
-  on 
-  <a href="https://www.humaaans.com/">Humaaans</a></ficaption>
-</figure>
-</center>
 
 
+![banner_doodle](docs/banner_doodle.png)
+Sketch by [Pablo Stanley](https://blush.design/artists/pablo-stanley) on [Humaaans](https://www.humaaans.com/)
+
+---
 
 This is a repository containing ready-to-use code for different methods to send emails using Python.
 
