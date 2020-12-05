@@ -1,7 +1,13 @@
 # Emails with Python
 
 
-![banner_doodle](docs/banner_doodle.png)
+<figure>
+  <img src="docs/banner_doodle.png" alt="banner_doodle">
+  <figcaption>Sketch by 
+  <a href="https://blush.design/artists/pablo-stanley">Pablo Stanley</a>
+  on 
+  <a href="https://www.humaaans.com/">Humaaans</a></ficaption>
+</figure>
 
 
 
