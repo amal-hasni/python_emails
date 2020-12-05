@@ -1,13 +1,15 @@
 # Emails with Python
 
-
+<center>
 <figure>
   <img src="docs/banner_doodle.png" alt="banner_doodle">
-  <figcaption><center>Sketch by 
+  
+  <figcaption>Sketch by 
   <a href="https://blush.design/artists/pablo-stanley">Pablo Stanley</a>
   on 
-  <a href="https://www.humaaans.com/">Humaaans</a></center></ficaption>
+  <a href="https://www.humaaans.com/">Humaaans</a></ficaption>
 </figure>
+</center>
 
 
 
