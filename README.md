@@ -24,6 +24,14 @@ pip install -r requirements.txt
 ```
 ---
 
+## Medium article
+
 You can find our **Medium article** explaining the details of this project via this link:
 
 [How to send E-mails with attachments using Python](https://medium.com/@amal-hasni/how-to-send-e-mails-with-attachments-using-python-in-2-easy-steps-5d0c05b3e44d)
+
+
+
+If you like the project and want to support us, you can buy us a coffee here:
+
+<a href="https://www.buymeacoffee.com/amal.hasni" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="41" width="174"></a>
